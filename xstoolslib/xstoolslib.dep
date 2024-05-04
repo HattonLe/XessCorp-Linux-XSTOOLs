@@ -1,0 +1,877 @@
+# Microsoft Developer Studio Generated Dependency File, included by xstoolslib.mak
+
+.\akcdcprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\akcdcprt.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\am29fprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\am29fprt.h"\
+	".\bitstrm.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\at17prt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\at17prt.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\at49fprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\at49fprt.h"\
+	".\bitstrm.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\bitstrm.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\cnfgport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\f28port.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\f28port.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\flashprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\hex.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hex.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\hexrecrd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hex.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\i2cportjtag.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportjtag.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\regiojtag.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\i2cportlpt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\jramprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jramprt.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xcbsdr.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\jtagport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\libusb_wrapper.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\libusb-win32\include\usb.h"\
+	"..\mchpfsusb\pc\mpusbapi\dll\borland_c\_mpusbapi.h"\
+	".\libusb_wrapper.h"\
+	
+
+.\lptjtag.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\Markup.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\markup.h"\
+	".\stdafx.h"\
+	
+
+.\mchpport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\mchpport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\osccyprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jtagport.h"\
+	".\osccyprt.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\oscport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\pbusport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pbusport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\pport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\dlportio\dlportio.h"\
+	"..\tvichw32\tvichw32.h"\
+	"..\uniio\uniio\include\btrace.hpp"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\osiface.hpp"\
+	"..\uniio\uniio\include\physmem.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\stdafx.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\precision_timer.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\precision_timer.h"\
+	
+
+.\progress.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\ramport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\regiojtag.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtaginstr.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\regiojtag.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\saa711x.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\saa711x.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\testport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\pport.h"\
+	".\testport.h"\
+	".\xserror.h"\
+	
+
+.\usbjtag.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\mchpfsusb\pc\mpusbapi\dll\borland_c\_mpusbapi.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\progress.h"\
+	".\usbcmd.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\usbport.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\mchpfsusb\pc\mpusbapi\dll\borland_c\_mpusbapi.h"\
+	"..\mchpfsusb\pc\mpusbapi\dll\borland_c\mpusbapi.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\mpusbapi_wrapper.h"\
+	".\progress.h"\
+	".\usbcmd.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\utils.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\akcdcprt.h"\
+	".\am29fprt.h"\
+	".\at17prt.h"\
+	".\at49fprt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\f28port.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jramprt.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\markup.h"\
+	".\osccyprt.h"\
+	".\oscport.h"\
+	".\pbusport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\saa711x.h"\
+	".\testport.h"\
+	".\usbcmd.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc2sprt.h"\
+	".\xc3sprt.h"\
+	".\xc4kprt.h"\
+	".\xc95kprt.h"\
+	".\xcbsdr.h"\
+	".\xcvprt.h"\
+	".\xs40brd.h"\
+	".\xs95brd.h"\
+	".\xsa200brd.h"\
+	".\xsa3sbrd.h"\
+	".\xsaboard.h"\
+	".\xsallbrds.h"\
+	".\xsbboard.h"\
+	".\xsboard.h"\
+	".\xscboard.h"\
+	".\xserror.h"\
+	".\xsjtagbrd.h"\
+	".\xsnullboard.h"\
+	".\xsvboard.h"\
+	".\xulabrd.h"\
+	
+
+.\winusb_wrapper.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\mchpfsusb\pc\mpusbapi\dll\borland_c\_mpusbapi.h"\
+	".\winusb_wrapper.h"\
+	{$(INCLUDE)}"driverspecs.h"\
+	{$(INCLUDE)}"sal.h"\
+	{$(INCLUDE)}"sal_supp.h"\
+	{$(INCLUDE)}"sdv_driverspecs.h"\
+	{$(INCLUDE)}"specstrings.h"\
+	{$(INCLUDE)}"specstrings_strict.h"\
+	{$(INCLUDE)}"specstrings_supp.h"\
+	{$(INCLUDE)}"strsafe.h"\
+	{$(INCLUDE)}"usb.h"\
+	{$(INCLUDE)}"usb100.h"\
+	{$(INCLUDE)}"usb200.h"\
+	{$(INCLUDE)}"winusb.h"\
+	{$(INCLUDE)}"winusbio.h"\
+	
+
+.\xc2sprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc2sprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xc3sprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc3sprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xc4kprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc4kprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xc95kprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hex.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc95kprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xcbsdr.cpp : \
+	".\bitstrm.h"\
+	".\xcbsdr.h"\
+	
+
+.\xcvprt.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xcvprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xs40brd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\at17prt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc4kprt.h"\
+	".\xs40brd.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xs95brd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jramprt.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc95kprt.h"\
+	".\xcbsdr.h"\
+	".\xs95brd.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xsa200brd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\am29fprt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc2sprt.h"\
+	".\xc95kprt.h"\
+	".\xsa200brd.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xsa3sbrd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\am29fprt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc3sprt.h"\
+	".\xc95kprt.h"\
+	".\xsa3sbrd.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xsaboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\at49fprt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc2sprt.h"\
+	".\xc95kprt.h"\
+	".\xsaboard.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xsbboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\akcdcprt.h"\
+	".\at49fprt.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\osccyprt.h"\
+	".\pbusport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\saa711x.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc2sprt.h"\
+	".\xc95kprt.h"\
+	".\xsbboard.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xsboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtaginstr.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	
+
+.\xscboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtaginstr.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xscboard.h"\
+	".\xserror.h"\
+	
+
+.\xserror.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	".\xserror.h"\
+	
+
+.\xsjtagbrd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtaginstr.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\precision_timer.h"\
+	".\progress.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	".\xsjtagbrd.h"\
+	
+
+.\xsnullboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtagport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	".\xsnullboard.h"\
+	
+
+.\xsvboard.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\cnfgport.h"\
+	".\f28port.h"\
+	".\flashprt.h"\
+	".\hexrecrd.h"\
+	".\i2cport.h"\
+	".\i2cportlpt.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\oscport.h"\
+	".\pport.h"\
+	".\progress.h"\
+	".\ramport.h"\
+	".\saa711x.h"\
+	".\testport.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xc95kprt.h"\
+	".\xcvprt.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	".\xsvboard.h"\
+	
+
+.\xulabrd.cpp : \
+	"..\..\..\..\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\uniio\uniio\include\ioport.hpp"\
+	"..\uniio\uniio\include\uniio.h"\
+	".\bitstrm.h"\
+	".\hexrecrd.h"\
+	".\jtaginstr.h"\
+	".\jtagport.h"\
+	".\lptjtag.h"\
+	".\pport.h"\
+	".\precision_timer.h"\
+	".\progress.h"\
+	".\usbjtag.h"\
+	".\usbport.h"\
+	".\utils.h"\
+	".\xsboard.h"\
+	".\xserror.h"\
+	".\xulabrd.h"\
+	
