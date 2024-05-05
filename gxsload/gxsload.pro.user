@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2024-05-04T17:49:07. -->
+<!-- Written by QtCreator 6.0.2, 2024-05-05T10:15:02. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -243,6 +243,8 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">gxsload2</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/main/Documents/XessCorp-Linux-XSTOOLs/gxsload/gxsload.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/main/Documents/XessCorp-Linux-XSTOOLs/gxsload/gxsload.pro</value>
+    <value type="QString" key="RunConfiguration.Arguments">main</value>
+    <value type="bool" key="RunConfiguration.RunAsRoot">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>

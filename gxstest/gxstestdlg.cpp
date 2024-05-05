@@ -34,10 +34,6 @@ gxsTestDlg::gxsTestDlg(QWidget *parent)
     connect(ui->m_cmbLpt, SIGNAL(currentIndexChanged(const QString&)), SLOT(OnSelchangeComboLpt(const QString&)));
     connect(ui->m_cmbBoard, SIGNAL(currentIndexChanged(const QString&)), SLOT(OnSelchangeCmbBoard(const QString&)));
 
-    // for testing only
-    setenv("XSTOOLS", "/home/main/Documents/MyXSTOOLs/XessData", 1);
-    setenv("XSTOOLS_BIN_DIR", "/home/main/Documents/MyXSTOOLs/XessData", 1);
-
     errMsg_ptr = new XSError(cerr);
 
     if (getuid())
@@ -49,42 +45,56 @@ gxsTestDlg::gxsTestDlg(QWidget *parent)
     }
     else
     {
-        string brdType;
-        string portName;
+        int ArgC;
+        string User;
 
-        // get the last settings
-        portName = Parameters::GetXSTOOLSParameter("PORT");
-        if ("" == portName)
+        // Get the user name from the only and only command argument
+        ArgC = QApplication::arguments().count();
+        if (2 == ArgC)
         {
-             // look for old-style LPT parameter if PORT parameter is empty
-            portName = Parameters::GetXSTOOLSParameter("LPT");
+            User = QApplication::arguments().value(1).toStdString();
         }
 
-        brdType = Parameters::GetXSTOOLSParameter("BoardType");
-
-        // stored in the XSTOOLS parameter file
-        GuiTools::SetPortList(ui->m_cmbLpt);
-        GuiTools::SetBoardList(ui->m_cmbBoard);
-
-        Parameters::InitialisationDone();
-
-        if ("" == portName)
+        // If we can access the XSTOOLs parameters file
+        if (Parameters::FindParameterFile(User.c_str()))
         {
-            Parameters::SetXSTOOLSParameter("PORT", "LPT1");
+            string brdType;
+            string portName;
+
+            // get the last settings
             portName = Parameters::GetXSTOOLSParameter("PORT");
-        }
+            if ("" == portName)
+            {
+                 // look for old-style LPT parameter if PORT parameter is empty
+                portName = Parameters::GetXSTOOLSParameter("LPT");
+            }
 
-        if ("" == brdType)
-        {
-            // set the default value if no previous value exists
-            Parameters::SetXSTOOLSParameter("BoardType", "XSA-3S1000");
             brdType = Parameters::GetXSTOOLSParameter("BoardType");
+
+            // stored in the XSTOOLS parameter file
+            GuiTools::SetPortList(ui->m_cmbLpt);
+            GuiTools::SetBoardList(ui->m_cmbBoard);
+
+            Parameters::InitialisationDone();
+
+            if ("" == portName)
+            {
+                Parameters::SetXSTOOLSParameter("PORT", "LPT1");
+                portName = Parameters::GetXSTOOLSParameter("PORT");
+            }
+
+            if ("" == brdType)
+            {
+                // set the default value if no previous value exists
+                Parameters::SetXSTOOLSParameter("BoardType", "XSA-3S1000");
+                brdType = Parameters::GetXSTOOLSParameter("BoardType");
+            }
+
+            ui->m_cmbLpt->setCurrentIndex(ui->m_cmbLpt->findText(portName.c_str()));
+            ui->m_cmbBoard->setCurrentIndex(ui->m_cmbBoard->findText(brdType.c_str()));
+
+            ExtractScreenSettings();
         }
-
-        ui->m_cmbLpt->setCurrentIndex(ui->m_cmbLpt->findText(portName.c_str()));
-        ui->m_cmbBoard->setCurrentIndex(ui->m_cmbBoard->findText(brdType.c_str()));
-
-        ExtractScreenSettings();
     }
 }
 

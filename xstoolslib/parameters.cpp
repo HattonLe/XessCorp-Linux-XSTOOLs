@@ -12,6 +12,53 @@ Parameters::Parameters()
 
 }
 
+// Attempt to access the XSTOOLs parameters,
+// return true if they are accessible.
+bool Parameters::FindParameterFile(const char *UserName)
+{
+    XSError err(cerr);
+    char UserPath[200];
+    FILE* fp;
+
+    fp = NULL;
+
+    // We need a user name in order for root to access the correct home directory
+    if (0 != strlen(UserName))
+    {
+        // Build root a path to the users Documents area where the Xess parameters are held
+        std::snprintf(UserPath, sizeof(UserPath), "/home/%s/Documents/XessData", UserName);
+
+        // for testing only
+        setenv("XSTOOLS", UserPath, true);
+        setenv("XSTOOLS_BIN_DIR", "/opt", 1);
+        setenv("XSTOOLS_DATA", UserPath, true);
+        setenv("XSTOOLS_DATA_DIR", UserPath, true);
+
+        // check the XS parameter file
+        string XSTOOLSParameterFilename = (string)FindXSTOOLSBinDir() + (string)"/XSPARAM.TXT";
+        fp = fopen(XSTOOLSParameterFilename.c_str(),"r");
+        if (fp == NULL)
+        {
+            char Msg[200];
+
+            std::snprintf(Msg, sizeof(Msg), "XSTOOLs Parameter file - Error:%d could not be opened!\n\"%s\"\n", errno, XSTOOLSParameterFilename.c_str());
+            err.SimpleMsg(XSErrorMajor, Msg);
+        }
+        else
+        {
+            fclose(fp);
+        }
+    }
+    else
+    {
+        char Msg[200];
+
+        strcpy(Msg, "Users name command line argument missing!\ne.g XYZ for accessing \"/home/XYZ/Documents/XessData\"\n");
+        err.SimpleMsg(XSErrorMajor, Msg);
+    }
+    return (NULL != fp);
+}
+
 void Parameters::InitialisationDone()
 {
     XSError err(cerr);
@@ -28,7 +75,7 @@ bool Parameters::SetXSTOOLSParameter(const char *RequiredKey, const char *value)
 {
     XSError err(cerr);
     FILE* fp;
-    char Msg[100];
+    char Msg[200];
 
     fp = NULL;
 
@@ -135,7 +182,7 @@ string Parameters::GetXSTOOLSParameter(const char *RequiredKey) ///< name of par
     string NeededKey;
     string ValueFound;
     FILE* fp;
-    char Msg[80];
+    char Msg[200];
 
     NeededKey = ConvertToUpperCase((string) RequiredKey);
     ValueFound = "";
@@ -152,7 +199,7 @@ string Parameters::GetXSTOOLSParameter(const char *RequiredKey) ///< name of par
     {
         char line[512], Val[512];
 
-        while(fgets(line, 511, fp) != NULL)
+        while (fgets(line, 511, fp) != NULL)
         {
             // got a line of text.  now see if it starts with the name we are searching for...
             char Key[512];

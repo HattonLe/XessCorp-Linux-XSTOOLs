@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=GXSPORT
 GenericName=GXSPORT
-Exec=pkexec env DISPLAY=:0 /opt/gxsport
+Exec=pkexec env DISPLAY=:0 /opt/gxsport main
 Terminal=false
 Icon=/opt/xess.ico
 Type=Application

@@ -49,14 +49,11 @@ SOURCES += \
     ../xstoolslib/xcvprt.cpp \
     ../xstoolslib/xs40brd.cpp \
     ../xstoolslib/xs95brd.cpp \
-    ../xstoolslib/xsa200brd.cpp \
     ../xstoolslib/xsa3sbrd.cpp \
     ../xstoolslib/xsaboard.cpp \
-    ../xstoolslib/xsbboard.cpp \
     ../xstoolslib/xsboard.cpp \
     ../xstoolslib/xserror.cpp \
     ../xstoolslib/xsnullboard.cpp \
-    ../xstoolslib/xsvboard.cpp \
     main.cpp \
     gxsportdlg.cpp
 
@@ -105,15 +102,12 @@ HEADERS += \
     ../xstoolslib/xcvprt.h \
     ../xstoolslib/xs40brd.h \
     ../xstoolslib/xs95brd.h \
-    ../xstoolslib/xsa200brd.h \
     ../xstoolslib/xsa3sbrd.h \
     ../xstoolslib/xsaboard.h \
     ../xstoolslib/xsallbrds.h \
-    ../xstoolslib/xsbboard.h \
     ../xstoolslib/xsboard.h \
     ../xstoolslib/xserror.h \
     ../xstoolslib/xsnullboard.h \
-    ../xstoolslib/xsvboard.h \
     FixLH.h \
     gxsportdlg.h \
     wtypes.h
